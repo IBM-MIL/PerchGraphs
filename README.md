@@ -20,6 +20,10 @@ Include the `mil.PerchGraphs` module into your module to get all that **PerchGra
 
 **PerchGraphs** comes with two components: the `perchGraph` directive and the `PerchGraphStrategy` interface. `perchGraph` is decorated with one attribute, `strategy`, which is an object conforming to the `PerchGraphStrategy` interface.
 
+## Reference
+
+[The wiki](https://github.com/IBM-MIL/PerchGraphs/wiki/Reference) has a complete reference to all of PerchGraphs' components, as well as usage guidelines and requirements.
+
 ## License
 
 Licensed Materials - Property of IBM
