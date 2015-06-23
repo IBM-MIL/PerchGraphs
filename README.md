@@ -22,7 +22,7 @@ Include the `mil.PerchGraphs` module into your module to get all that **PerchGra
 
 ## Reference
 
-[The wiki](https://github.com/IBM-MIL/PerchGraphs/wiki/Reference) has a complete reference to all of PerchGraphs' components, as well as usage guidelines and requirements.
+[The wiki](https://github.com/IBM-MIL/PerchGraphs/wiki) has a complete reference to all of PerchGraphs' components, as well as usage guidelines and requirements.
 
 ## License
 
