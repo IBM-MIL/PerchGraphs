@@ -1,0 +1,116 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 18pt;
+  font-weight: 700;
+  font-style: italic;
+  color: #ccc;
+}
+
+.button {
+  padding: 10px 15px;
+  margin: 20px 0;
+  background-color: #00ffa3;
+  color: #00794d;
+  display: inline-block;
+}
+.button:hover {
+  cursor: pointer;
+}
+.button:active {
+  background-color: #0ad98e;
+}
+
+.graph-title {
+  font-size: 14pt;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* --------------------------------------------------- */
+
+perch-graph {
+  display: block;
+  width: 100%;
+  height: 70vh;
+  border: solid 1px #e6e4e4;
+}
+
+path {
+  fill: none;
+  stroke-width: 1.5px;
+  stroke: #d4d3d3;
+}
+
+.threshold {
+  fill: none;
+  stroke: #dd7e00;
+  stroke-width: 1.5px;
+  stroke-dasharray: 2,5;
+}
+
+circle {
+  stroke-width: 3px;
+  stroke: #FFF
+}
+circle.ok {
+  fill: #a1a1a1;
+}
+circle.warning {
+  fill: #00ffa3;
+}
+
+rect {
+  fill: #00ffa3;
+}
+
+.scrubber-text {
+  fill: #00794d;
+  stroke-width: 10px;
+  text-anchor: middle;
+  font-style: italic;
+  font-size: 14pt;
+}
+
+.threshold-text {
+  fill: #ff9100;
+  stroke-width: 10px;
+  text-anchor: right;
+  font-size: 10pt;
+}
+
+.axis-line {
+  fill: none;
+  stroke: #d4d3d3;
+  stroke-width: 1.5px;
+  stroke-dasharray: 2,5;
+}
+
+.axis-group path,
+.axis-group .tick,
+.axis-group line {
+	fill: #a1a1a1;
+  font-size: 8pt;
+	stroke: #a1a1a1;
+	stroke-width: 0;
+}
+
+.mask-axis-group path,
+.mask-axis-group .tick,
+.mask-axis-group line {
+	fill: #a1a1a1;
+  font-size: 8pt;
+	stroke: #FFF;
+	stroke-width: 0;
+}
+
+.mask-text {
+  fill: #00794d;
+}
+
+.mask-background {
+  fill: #00ffa3;
+}

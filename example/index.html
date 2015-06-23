@@ -1,0 +1,25 @@
+<html>
+
+  <head>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+
+    <script type='text/javascript' src='angular.min.js'></script>
+    <script type='text/javascript' src='d3.min.js'></script>
+
+    <script type='text/javascript' src='perch-graphs.js'></script>
+    <script type='text/javascript' src='index.js'></script>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0'>
+  </head>
+
+  <body ng-app='PerchGraphsExample' ng-controller='PerchGraphsExampleController as ctrl'>
+    <div class='title'>PerchGraphs Example</div>
+
+    <div class='button' ng-click='ctrl.toggleGraphs()'>Toggle</div>
+
+    <div class='graph-title'>{{ctrl.currentTitle}}</div>
+
+    <perch-graph strategy='ctrl.currentStrategy'></perch-graph>
+  </body>
+
+</html>
