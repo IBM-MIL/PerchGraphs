@@ -18,7 +18,7 @@ A flexible graphing-driver, inspired by the [Perch app](https://vimeo.com/128847
 
 Include the `mil.PerchGraphs` module into your module to get all that **PerchGraphs** has to offer.
 
-**PerchGraphs** comes with two components: the `perchGraph` directive and the `PerchGraphStrategy` interface. `perchGraph` is decorated with one attribute, `strategy`, which is an object conforming to the `PerchGraphStrategy` interface.
+**PerchGraphs** comes with two components: the [perchGraph](https://github.com/IBM-MIL/PerchGraphs/wiki/perchGraph-Reference) directive and the [PerchGraphStrategy](https://github.com/IBM-MIL/PerchGraphs/wiki/PerchGraphStrategy-Reference) interface. perchGraph is decorated with one attribute, [strategy](https://github.com/IBM-MIL/PerchGraphs/wiki/perchGraph-Reference#_strategy), which is an object conforming to the `PerchGraphStrategy` interface.
 
 ## Reference
 

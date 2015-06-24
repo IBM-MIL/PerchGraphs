@@ -22,7 +22,7 @@ var serveStatic = require('serve-static');
 gulp.task('build', function() {
   return gulp.src(['src/index.js', 'src/interfaces/*.js', 'src/services/*.js', 'src/directives/*.js'])
              .pipe(annotate())
-             // .pipe(uglify())
+             .pipe(uglify())
              .pipe(concat('perch-graphs.js'))
              .pipe(gulp.dest('dist/'))
              .pipe(gulp.dest('example/'));
