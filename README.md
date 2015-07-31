@@ -3,7 +3,7 @@
 <p align="center">
 <img src="demo.gif" alt="Animation" border=1 /></p>
 
-A flexible graphing-driver, inspired by the [Perch app](https://vimeo.com/128847479), powered by [D3](https://github.com/mbostock/d3) and [Angular](https://github.com/angular/angular).
+A flexible graphing-driver, inspired by the [Perch app](https://vimeo.com/133050089), powered by [D3](https://github.com/mbostock/d3) and [Angular](https://github.com/angular/angular).
 
 **PerchGraphs** handles all the parsing, translating, manipulating, interpolating, and other mathy-words-involving-[a-graph](https://www.youtube.com/watch?v=sIlNIVXpIns) for you. You just describe how to plot your data and let **PerchGraphs** do the rest.
 
